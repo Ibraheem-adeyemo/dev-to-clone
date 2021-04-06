@@ -9240,10 +9240,24 @@ react-error-overlay@^6.0.9:
   resolved "https://registry.yarnpkg.com/react-error-overlay/-/react-error-overlay-6.0.9.tgz#3c743010c9359608c375ecd6bc76f35d93995b0a"
   integrity sha512-nQTTcUu+ATDbrSD1BZHr5kgSD4oF8OFjxun8uAaL8RwPBacGBNPf/yAuVVdx17N8XNzRDMrZ9XcKZHCjPW+9ew==
 
+<<<<<<< HEAD
 react-icons@^4.2.0:
   version "4.2.0"
   resolved "https://registry.yarnpkg.com/react-icons/-/react-icons-4.2.0.tgz#6dda80c8a8f338ff96a1851424d63083282630d0"
   integrity sha512-rmzEDFt+AVXRzD7zDE21gcxyBizD/3NqjbX6cmViAgdqfJ2UiLer8927/QhhrXQV7dEj/1EGuOTPp7JnLYVJKQ==
+=======
+react-icon-base@1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/react-icon-base/-/react-icon-base-1.0.0.tgz#5692d495a7cf340fcf664b8c4d4a369c56467ea5"
+  integrity sha1-VpLUlafPNA/PZkuMTUo2nFZGfqU=
+
+react-icons@^1.0.0:
+  version "1.0.6"
+  resolved "https://registry.yarnpkg.com/react-icons/-/react-icons-1.0.6.tgz#d59b5950a8ca32be8f51a490eb81fb9126ca2bff"
+  integrity sha1-1ZtZUKjKMr6PUaSQ64H7kSbKK/8=
+  dependencies:
+    react-icon-base "1.0.0"
+>>>>>>> da391ed8d658831243169da4372af684c9bf5580
 
 react-is@^16.8.1:
   version "16.13.1"
